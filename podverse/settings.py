@@ -60,7 +60,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'podverse.urls'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3030',
+    '*',
 ]
 
 
